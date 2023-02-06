@@ -1,0 +1,43 @@
+.topbarContainer {
+    background-color: rgb(205, 77, 77);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.topbarLeft {
+    flex: 8;
+    text-align: center;
+}
+
+.topbarMenu {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.userIcon {
+    margin-right: 5px;
+}
+
+.Logout {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.createIcon {
+    margin-right: 30px;
+}

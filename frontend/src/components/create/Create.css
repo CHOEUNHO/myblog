@@ -1,0 +1,72 @@
+textarea {
+    resize: none;
+}
+
+.create {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createWrapper {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createLogo{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 60px;
+    color: rgb(117, 11, 11);
+}
+.createBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(198, 121, 121);
+
+}
+
+.title {
+    width:80%;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(182, 51, 51);
+    border-radius: 10px;
+}
+
+.description{
+    width: 81%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(182, 51, 51);
+    border-radius: 10px;
+}
+
+.createButton {
+    height: 40px;
+    width: 60px;
+    margin-bottom: 30px;
+    background-color: rgb(164, 43, 43);
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.createBox::placeholder {
+    padding-left: 30px;
+}

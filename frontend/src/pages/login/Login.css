@@ -1,0 +1,81 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper {
+    width: 100%;
+    height: 70%;
+}
+
+.loginTob,
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginTitle {
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(184, 26, 26);
+    margin-bottom: 80px;
+}
+
+.loginLogo {
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(193, 66, 66);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.loginBox {
+    width: 450px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(160, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginInput {
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(155, 67, 67);
+    padding-left: 10px;
+}
+
+.loginInput:focus {
+    outline: none;
+}
+
+.loginButton {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(197, 92, 92);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.loginRegisterButton {
+    background-color:transparent;
+    border: none;
+    text-decoration: underline;
+    color: rgb(204, 127, 127);
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.read h3 {
+    margin-bottom: 40px;
+}
